@@ -1,5 +1,7 @@
 package main
 
+import "module/usecases/speedtest"
+
 func main() {
-	println("Hello, world!")
+	speedtest.Run()
 }
